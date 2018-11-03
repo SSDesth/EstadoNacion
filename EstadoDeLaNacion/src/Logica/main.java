@@ -10,12 +10,13 @@ package Logica;
  * @author SSDesth
  */
 public class main {
-
+    public static ControladorPrincipal micontrolador;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      micontrolador = new ControladorPrincipal();
+      micontrolador.frmInicial();
     }
     
 }
