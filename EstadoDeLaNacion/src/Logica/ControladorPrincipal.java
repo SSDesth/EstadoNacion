@@ -1,9 +1,13 @@
 
 package Logica;
 
-import Datos.Pais;
-import UI.FrmInicio;
+import Datos.*;
+import UI.*;
+import java.io.File;
 import javax.swing.JFrame;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
 
 /**
  *
@@ -43,5 +47,36 @@ public class ControladorPrincipal {
     public void frmInicial(){
         ventana= new FrmInicio();
         ventana.setVisible(true);
+    }
+    
+    public void frmVentanaPrincipal(){
+        ventana.dispose();
+        ventana= new FrmVentanaPrincipal();
+        ventana.setVisible(true);
+    }
+    
+     /**
+     * Este metodo Busca un archivo XML en el URL dado y carga la tabla
+     * periodica
+     *
+     * @param URL: String
+     */
+    public void leerXML(String URL) {
+        try {
+            //--------Crea el contexto JAXB--------//
+            JAXBContext ctx = JAXBContext.newInstance(Pais.class);
+            //--------Crea la clase que permite leer archivo XML
+            Unmarshaller ums = ctx.createUnmarshaller();
+
+            miPais = (Pais) ums.unmarshal(new File(URL)); //error
+
+        } catch (JAXBException ex) {
+            System.out.println(ex.toString());
+        }
+
+    }
+    
+    public Canton RetornarCanton(String entradaProvincia,String entradaCanton){
+        return miPais.RetornarCanton(entradaProvincia, entradaCanton);
     }
 }

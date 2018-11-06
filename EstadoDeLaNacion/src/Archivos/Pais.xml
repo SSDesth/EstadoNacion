@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pais>
+    <listaProvincias>
+        <nombre>San Jose</nombre>
+        <listaCantones>
+            <nombre>San Jose</nombre>
+            <poblacion>288054</poblacion>
+            <densidad>6456</densidad>
+            <alfabetismo>98.8</alfabetismo>
+            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
+            <extranjeros>16,3</extranjeros>
+            <discapacitados>12,3</discapacitados>
+        </listaCantones>
+        <listaCantones>
+            <nombre>Escazu</nombre>
+            <poblacion>56509</poblacion>
+            <densidad>1638</densidad>
+            <alfabetismo>99.0</alfabetismo>
+            <fuersaDeTrabajo>39.3</fuersaDeTrabajo>
+            <extranjeros>19.9</extranjeros>
+            <discapacitados>10.4</discapacitados>
+        </listaCantones>
+        <listaCantones>
+            <nombre>Desamparados</nombre>
+            <poblacion>208411</poblacion>
+            <densidad>1762</densidad>
+            <alfabetismo>98,6</alfabetismo>
+            <fuersaDeTrabajo>43,0</fuersaDeTrabajo>
+            <extranjeros>8,9</extranjeros>
+            <discapacitados>10.5</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+    <listaProvincias>
+        <nombre>Alajuela</nombre>
+        <listaCantones>
+            <nombre>San Jose</nombre>
+            <poblacion>288054</poblacion>
+            <densidad>44.6</densidad>
+            <alfabetismo>98.8</alfabetismo>
+            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
+            <extranjeros>16,3</extranjeros>
+            <discapacitados>12,3</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+    <listaProvincias>
+        <nombre>Cartago</nombre>
+        <listaCantones>
+            <nombre>San Jose</nombre>
+            <poblacion>288054</poblacion>
+            <densidad>44.6</densidad>
+            <alfabetismo>98.8</alfabetismo>
+            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
+            <extranjeros>16,3</extranjeros>
+            <discapacitados>12,3</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+    <listaProvincias>
+        <nombre>Heredia</nombre>
+        <listaCantones>
+            <nombre>San Jose</nombre>
+            <poblacion>288054</poblacion>
+            <densidad>44.6</densidad>
+            <alfabetismo>98.8</alfabetismo>
+            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
+            <extranjeros>16,3</extranjeros>
+            <discapacitados>12,3</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+    <listaProvincias>
+        <nombre>Guanacaste</nombre>
+        <listaCantones>
+            <nombre>San Jose</nombre>
+            <poblacion>288054</poblacion>
+            <densidad>44.6</densidad>
+            <alfabetismo>98.8</alfabetismo>
+            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
+            <extranjeros>16,3</extranjeros>
+            <discapacitados>12,3</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+    <listaProvincias>
+        <nombre>Puntarenas</nombre>
+        <listaCantones>
+            <nombre>San Jose</nombre>
+            <poblacion>288054</poblacion>
+            <densidad>44.6</densidad>
+            <alfabetismo>98.8</alfabetismo>
+            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
+            <extranjeros>16,3</extranjeros>
+            <discapacitados>12,3</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+    <listaProvincias>
+        <nombre>Limon</nombre>
+        <listaCantones>
+            <nombre>San Jose</nombre>
+            <poblacion>288054</poblacion>
+            <densidad>44.6</densidad>
+            <alfabetismo>98.8</alfabetismo>
+            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
+            <extranjeros>16,3</extranjeros>
+            <discapacitados>12,3</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+</pais>
+

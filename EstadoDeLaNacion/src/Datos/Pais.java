@@ -2,12 +2,14 @@
 package Datos;
 
 import java.util.List;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
  * @author SSDesth
  */
-public class Pais {
+@XmlRootElement
+public class Pais  {
     /*----------Variables----------*/
     private List<Provincia> listaProvincias;
     
@@ -23,6 +25,17 @@ public class Pais {
     public void setListaProvincias(List<Provincia> listaProvincias) {
         this.listaProvincias = listaProvincias;
     }
+
+    @Override
+    public String toString() {
+        String salida="";
+        for(Provincia aux:listaProvincias){
+            salida+=aux.toString()+"\n";
+        }
+        return salida;
+    }
+    
+    
     
     /*----------Metodos especielizados---------*/
     

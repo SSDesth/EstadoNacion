@@ -2,11 +2,13 @@
 package Datos;
 
 import java.util.*;
+import javax.xml.bind.annotation.XmlType;
 
 /**
  *
  * @author SSDesth
  */
+@XmlType()
 public class Provincia {
     /*----------variables----------*/
     private String nombre;
@@ -30,6 +32,15 @@ public class Provincia {
         this.listaCantones = listaCantones;
     }
 
+     @Override
+    public String toString() {
+        String salida="";
+        salida+="Nombre: " + nombre + "\n";
+        for(Canton aux:listaCantones){
+            salida+=aux.toString()+"\n";
+        }
+        return salida;
+    }
     /*----------metodos especializados----------*/
     /**
      * metodo encargadod e buscar un canton en espesifico y retornarlo

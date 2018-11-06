@@ -16,7 +16,11 @@ public class main {
      */
     public static void main(String[] args) {
       micontrolador = new ControladorPrincipal();
+      micontrolador.leerXML("src/Archivos/Pais.xml");
+      System.out.println(micontrolador.getMiPais().toString());
       micontrolador.frmInicial();
+      
+      
     }
     
 }
