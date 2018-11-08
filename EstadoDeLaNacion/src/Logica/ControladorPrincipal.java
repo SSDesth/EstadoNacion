@@ -79,4 +79,8 @@ public class ControladorPrincipal {
     public Canton RetornarCanton(String entradaProvincia,String entradaCanton){
         return miPais.RetornarCanton(entradaProvincia, entradaCanton);
     }
+    
+    public Provincia RetornarProvincia(String entradaProvincia){
+        return miPais.RetornarProvincia(entradaProvincia);
+    }
 }

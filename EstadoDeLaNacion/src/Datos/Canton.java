@@ -13,12 +13,14 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlType()
 public class Canton {
+
     /*----------Variables----------*/
-    
+
     //caracteristicas demograficas
     private String nombre;
     private int poblacion;
     private double densidad;
+    private double superficie;
     //caracteristicas educativas
     private double alfabetismo;
     //caracteristicas economicas
@@ -26,13 +28,12 @@ public class Canton {
     //caracteristicas sociales
     private double extranjeros;
     private double discapacitados;
-    
+
     /*----------Constructor(es)----------*/
     public Canton() {
     }
 
     /*----------Setters y Getters----------*/
-    
     public String getNombre() {
         return nombre;
     }
@@ -57,6 +58,16 @@ public class Canton {
         this.densidad = densidad;
     }
 
+    public double getSuperficie() {
+        return superficie;
+    }
+
+    public void setSuperficie(double superficie) {
+        this.superficie = superficie;
+    }
+
+    
+    
     public double getAlfabetismo() {
         return alfabetismo;
     }
@@ -88,19 +99,26 @@ public class Canton {
     public void setDiscapacitados(double discapacitados) {
         this.discapacitados = discapacitados;
     }
-    
-    /*----------metodos especializados----------*/
 
+    /*----------metodos especializados----------*/
     @Override
     public String toString() {
-        return "Caracteristicas Demograficas" +
-                "\nNombre: " + nombre +
-                "\nPoblacion: " + poblacion +
-                "\nDensidad: " +  densidad +
-                "\nCaracteristicas Educativa"+
-                "\nAlfabetismo: " + alfabetismo;
+        return "Caracteristicas Demograficas"
+                + "\nNombre: " + nombre
+                + "\nPoblacion: " + poblacion
+                + "\nDensidad: " + densidad+" personas por Km2"
+                + "\nSuperficie: " + superficie+" Km2"
+                + "\n"
+                + "\nCaracteristicas Educativa"
+                + "\nAlfabetismo: " + alfabetismo+"%"
+                + "\n"
+                + "\nCaracteristicas Economicas"
+                + "\nFuerza de trabajo: " + fuersaDeTrabajo+"%"
+                + "\n"
+                + "\nCaracteristicas Sociales"
+                + "\nExtranjeros: " + extranjeros+"%"
+                + "\nPersonas con alguna discapacidad: " + discapacitados+"%";
+
     }
-    
-    
-    
+
 }

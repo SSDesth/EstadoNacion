@@ -30,7 +30,7 @@ public class Pais  {
     public String toString() {
         String salida="";
         for(Provincia aux:listaProvincias){
-            salida+=aux.toString()+"\n";
+            salida+=aux.toString()+"\n\n";
         }
         return salida;
     }
@@ -51,6 +51,21 @@ public class Pais  {
         for (Provincia aux:listaProvincias){
             if(aux.getNombre().equals(nombreProvincia)){
                 return aux.RetornarCanton(nombreCanton);
+            }
+        }
+        return null;
+    }
+    
+    /**
+     * Metodo encargado  de retornar una provincia en espesifico
+     * 
+     * @param nombreProvincia:string
+     * @return Provincia
+     */
+    public Provincia RetornarProvincia(String nombreProvincia) {
+        for (Provincia aux:listaProvincias){
+            if(aux.getNombre().equals(nombreProvincia)){
+                return aux;
             }
         }
         return null;

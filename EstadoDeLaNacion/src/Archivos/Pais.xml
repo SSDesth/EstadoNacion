@@ -2,105 +2,908 @@
 <pais>
     <listaProvincias>
         <nombre>San Jose</nombre>
+        <poblacion>1404242</poblacion>
+        <densidad>283</densidad>
+        <superficie>4966</superficie>
+        <alfabetismo>98.5</alfabetismo>
+        <fuersaDeTrabajo>44.0</fuersaDeTrabajo>
+        <extranjeros>10.6</extranjeros>
+        <discapacitados>11.1</discapacitados>
         <listaCantones>
             <nombre>San Jose</nombre>
             <poblacion>288054</poblacion>
             <densidad>6456</densidad>
+            <superficie>44.6</superficie>
             <alfabetismo>98.8</alfabetismo>
-            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
-            <extranjeros>16,3</extranjeros>
-            <discapacitados>12,3</discapacitados>
+            <fuersaDeTrabajo>43.3</fuersaDeTrabajo>
+            <extranjeros>16.3</extranjeros>
+            <discapacitados>12.3</discapacitados>
         </listaCantones>
+        
         <listaCantones>
             <nombre>Escazu</nombre>
             <poblacion>56509</poblacion>
             <densidad>1638</densidad>
+            <superficie>34.5</superficie>
             <alfabetismo>99.0</alfabetismo>
             <fuersaDeTrabajo>39.3</fuersaDeTrabajo>
             <extranjeros>19.9</extranjeros>
             <discapacitados>10.4</discapacitados>
         </listaCantones>
+        
         <listaCantones>
             <nombre>Desamparados</nombre>
             <poblacion>208411</poblacion>
             <densidad>1762</densidad>
-            <alfabetismo>98,6</alfabetismo>
-            <fuersaDeTrabajo>43,0</fuersaDeTrabajo>
-            <extranjeros>8,9</extranjeros>
+            <superficie>118.3</superficie>
+            <alfabetismo>98.6</alfabetismo>
+            <fuersaDeTrabajo>43.0</fuersaDeTrabajo>
+            <extranjeros>8.9</extranjeros>
+            <discapacitados>10.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Puriscal</nombre>
+            <poblacion>33004</poblacion>
+            <densidad>60</densidad>
+            <superficie>553.7</superficie>
+            <alfabetismo>96.7</alfabetismo>
+            <fuersaDeTrabajo>48.9</fuersaDeTrabajo>
+            <extranjeros>2.2</extranjeros>
+            <discapacitados>13.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Tarrazú</nombre>
+            <poblacion>16280</poblacion>
+            <densidad>55</densidad>
+            <superficie>297.5</superficie>
+            <alfabetismo>96.5</alfabetismo>
+            <fuersaDeTrabajo>48.8</fuersaDeTrabajo>
+            <extranjeros>5.8</extranjeros>
+            <discapacitados>9.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Aserrí</nombre>
+            <poblacion>57892</poblacion>
+            <densidad>346</densidad>
+            <superficie>167.1</superficie>
+            <alfabetismo>98.0</alfabetismo>
+            <fuersaDeTrabajo>45.5</fuersaDeTrabajo>
+            <extranjeros>4.9</extranjeros>
+            <discapacitados>10.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Mora</nombre>
+            <poblacion>26294</poblacion>
+            <densidad>162</densidad>
+            <superficie>162.0</superficie>
+            <alfabetismo>98.0</alfabetismo>
+            <fuersaDeTrabajo>44.8</fuersaDeTrabajo>
+            <extranjeros>7.4</extranjeros>
+            <discapacitados>10.2</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Goicoechea</nombre>
+            <poblacion>115084</poblacion>
+            <densidad>3653</densidad>
+            <superficie>31.5</superficie>
+            <alfabetismo>99.0</alfabetismo>
+            <fuersaDeTrabajo>43.2</fuersaDeTrabajo>
+            <extranjeros>9.5</extranjeros>
+            <discapacitados>11.7</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Santa Ana</nombre>
+            <poblacion>49123</poblacion>
+            <densidad>800</densidad>
+            <superficie>61.4</superficie>
+            <alfabetismo>98.7</alfabetismo>
+            <fuersaDeTrabajo>38.2</fuersaDeTrabajo>
+            <extranjeros>18.9</extranjeros>
+            <discapacitados>9.9</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Alajuelita</nombre>
+            <poblacion>77603</poblacion>
+            <densidad>3666</densidad>
+            <superficie>21.2</superficie>
+            <alfabetismo>98.6</alfabetismo>
+            <fuersaDeTrabajo>44.0</fuersaDeTrabajo>
+            <extranjeros>12.9</extranjeros>
+            <discapacitados>11.2</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Vázquez de Coronado</nombre>
+            <poblacion>60486</poblacion>
+            <densidad>272</densidad>
+            <superficie>222.2</superficie>
+            <alfabetismo>99.1</alfabetismo>
+            <fuersaDeTrabajo>41.6</fuersaDeTrabajo>
+            <extranjeros>4.5</extranjeros>
+            <discapacitados>10.2</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Acosta</nombre>
+            <poblacion>20209</poblacion>
+            <densidad>59</densidad>
+            <superficie>342.2</superficie>
+            <alfabetismo>95.6</alfabetismo>
+            <fuersaDeTrabajo>50.4</fuersaDeTrabajo>
+            <extranjeros>1.2</extranjeros>
+            <discapacitados>10.2</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Tibás</nombre>
+            <poblacion>64842</poblacion>
+            <densidad>7956</densidad>
+            <superficie>8.1</superficie>
+            <alfabetismo>99.0</alfabetismo>
+            <fuersaDeTrabajo>44.0</fuersaDeTrabajo>
+            <extranjeros>10.7</extranjeros>
+            <discapacitados>11.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Moravia</nombre>
+            <poblacion>56919</poblacion>
+            <densidad>1762</densidad>
+            <superficie>28.6</superficie>
+            <alfabetismo>99.2</alfabetismo>
+            <fuersaDeTrabajo>41.3</fuersaDeTrabajo>
+            <extranjeros>8.6</extranjeros>
+            <discapacitados>10.7</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Montes de Oca</nombre>
+            <poblacion>49132</poblacion>
+            <densidad>3241</densidad>
+            <superficie>15.2</superficie>
+            <alfabetismo>99.5</alfabetismo>
+            <fuersaDeTrabajo>41.2</fuersaDeTrabajo>
+            <extranjeros>13.1</extranjeros>
+            <discapacitados>11.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Turrubares</nombre>
+            <poblacion>5512</poblacion>
+            <densidad>13</densidad>
+            <superficie>415.3</superficie>
+            <alfabetismo>95.0</alfabetismo>
+            <fuersaDeTrabajo>51.8</fuersaDeTrabajo>
+            <extranjeros>4.5</extranjeros>
+            <discapacitados>11.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Dota</nombre>
+            <poblacion>6948</poblacion>
+            <densidad>17</densidad>
+            <superficie>400.2</superficie>
+            <alfabetismo>97.3</alfabetismo>
+            <fuersaDeTrabajo>48.8</fuersaDeTrabajo>
+            <extranjeros>7.1</extranjeros>
+            <discapacitados>8.2</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Curridabat</nombre>
+            <poblacion>65206</poblacion>
+            <densidad>4088</densidad>
+            <superficie>15.9</superficie>
+            <alfabetismo>99.0</alfabetismo>
+            <fuersaDeTrabajo>41.1</fuersaDeTrabajo>
+            <extranjeros>15.2</extranjeros>
+            <discapacitados>9.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Pérez Zeledón</nombre>
+            <poblacion>134534</poblacion>
+            <densidad>71</densidad>
+            <superficie>1905.5</superficie>
+            <alfabetismo>97.2</alfabetismo>
+            <fuersaDeTrabajo>52.0</fuersaDeTrabajo>
+            <extranjeros>2.5</extranjeros>
+            <discapacitados>10.9</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>León Cortés Castro</nombre>
+            <poblacion>12200</poblacion>
+            <densidad>101</densidad>
+            <superficie>120.8</superficie>
+            <alfabetismo>96.6</alfabetismo>
+            <fuersaDeTrabajo>42.8</fuersaDeTrabajo>
+            <extranjeros>4.1</extranjeros>
+            <discapacitados>9.6</discapacitados>
+        </listaCantones>
+       
+    </listaProvincias>
+    
+    <listaProvincias>
+        <nombre>Alajuela</nombre>
+        <poblacion> 848146</poblacion>
+        <densidad>87</densidad>
+        <superficie>9758</superficie>
+        <alfabetismo>87.05</alfabetismo>
+        <fuersaDeTrabajo>46.5</fuersaDeTrabajo>
+        <extranjeros>8.2</extranjeros>
+        <discapacitados>4.8</discapacitados>
+        
+        <listaCantones>
+            <nombre>Alajuela</nombre>
+            <poblacion>254886</poblacion>
+            <densidad>656</densidad>
+            <superficie>388.4</superficie>
+            <alfabetismo>98.2</alfabetismo>
+            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
+            <extranjeros>16,3</extranjeros>
+            <discapacitados>12,3</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>San Ramón</nombre>
+            <poblacion>80566</poblacion>
+            <densidad>79</densidad>
+            <superficie>1018.6</superficie>
+            <alfabetismo>97.5</alfabetismo>
+            <fuersaDeTrabajo>49.0</fuersaDeTrabajo>
+            <extranjeros>6.9</extranjeros>
+            <discapacitados>10.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Grecia</nombre>
+            <poblacion>76898</poblacion>
+            <densidad>194</densidad>
+            <superficie>395.7</superficie>
+            <alfabetismo>97.5</alfabetismo>
+            <fuersaDeTrabajo>46.2</fuersaDeTrabajo>
+            <extranjeros>9.1</extranjeros>
+            <discapacitados>10.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>San Mateo</nombre>
+            <poblacion>6136</poblacion>
+            <densidad>49</densidad>
+            <superficie>125.9</superficie>
+            <alfabetismo>97.7</alfabetismo>
+            <fuersaDeTrabajo>55.3</fuersaDeTrabajo>
+            <extranjeros>5.3</extranjeros>
+            <discapacitados>11.6</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Atenas</nombre>
+            <poblacion>25460</poblacion>
+            <densidad>200</densidad>
+            <superficie>127.2</superficie>
+            <alfabetismo>98.0</alfabetismo>
+            <fuersaDeTrabajo>49.3</fuersaDeTrabajo>
+            <extranjeros>8.2</extranjeros>
+            <discapacitados>9.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Naranjo</nombre>
+            <poblacion>42713</poblacion>
+            <densidad>337</densidad>
+            <superficie>126.6</superficie>
+            <alfabetismo>97.4</alfabetismo>
+            <fuersaDeTrabajo>49.3</fuersaDeTrabajo>
+            <extranjeros>6.8</extranjeros>
+            <discapacitados>9.6</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Palmares</nombre>
+            <poblacion>34716</poblacion>
+            <densidad>912</densidad>
+            <superficie>38.1</superficie>
+            <alfabetismo>98.2</alfabetismo>
+            <fuersaDeTrabajo>48.3</fuersaDeTrabajo>
+            <extranjeros>4.0</extranjeros>
+            <discapacitados>9.7</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Poás</nombre>
+            <poblacion>29199</poblacion>
+            <densidad>395</densidad>
+            <superficie>73.8</superficie>
+            <alfabetismo>97.4</alfabetismo>
+            <fuersaDeTrabajo>46.9</fuersaDeTrabajo>
+            <extranjeros>7.5</extranjeros>
+            <discapacitados>9.3</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Orotina</nombre>
+            <poblacion>20341</poblacion>
+            <densidad>143</densidad>
+            <superficie>141.9</superficie>
+            <alfabetismo>96.7</alfabetismo>
+            <fuersaDeTrabajo>51.8</fuersaDeTrabajo>
+            <extranjeros>5.4</extranjeros>
+            <discapacitados>11.3</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>San Carlos</nombre>
+            <poblacion>163745</poblacion>
+            <densidad>49</densidad>
+            <superficie>3348.0</superficie>
+            <alfabetismo>95.7</alfabetismo>
+            <fuersaDeTrabajo>45.8</fuersaDeTrabajo>
+            <extranjeros>14.4</extranjeros>
+            <discapacitados>8.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Zarcero</nombre>
+            <poblacion>12205</poblacion>
+            <densidad>79</densidad>
+            <superficie>155.1</superficie>
+            <alfabetismo>97.7</alfabetismo>
+            <fuersaDeTrabajo>45.2</fuersaDeTrabajo>
+            <extranjeros>9.9</extranjeros>
+            <discapacitados>7.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Valverde Vega</nombre>
+            <poblacion>18085</poblacion>
+            <densidad>150</densidad>
+            <superficie>120.3</superficie>
+            <alfabetismo>97.0</alfabetismo>
+            <fuersaDeTrabajo>49.2</fuersaDeTrabajo>
+            <extranjeros>7.7</extranjeros>
+            <discapacitados>9.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Upala</nombre>
+            <poblacion>43953</poblacion>
+            <densidad>28</densidad>
+            <superficie>1580.7</superficie>
+            <alfabetismo>94.1</alfabetismo>
+            <fuersaDeTrabajo>55.1</fuersaDeTrabajo>
+            <extranjeros>12.7</extranjeros>
+            <discapacitados>13.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Los Chiles</nombre>
+            <poblacion>23735</poblacion>
+            <densidad>17</densidad>
+            <superficie>1358.9</superficie>
+            <alfabetismo>91.1</alfabetismo>
+            <fuersaDeTrabajo>52.5</fuersaDeTrabajo>
+            <extranjeros>27.7</extranjeros>
+            <discapacitados>10.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Guatuso</nombre>
+            <poblacion>15508</poblacion>
+            <densidad>20</densidad>
+            <superficie>758.3</superficie>
+            <alfabetismo>94.2</alfabetismo>
+            <fuersaDeTrabajo>53.9</fuersaDeTrabajo>
+            <extranjeros>9.1</extranjeros>
+            <discapacitados>13.0</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+   
+    <listaProvincias>
+        <nombre>Cartago</nombre>
+        <poblacion>490903</poblacion>
+        <densidad>157</densidad>
+        <superficie>3125</superficie>
+        <alfabetismo>97.9</alfabetismo>
+        <fuersaDeTrabajo>46.6</fuersaDeTrabajo>
+        <extranjeros>4.2</extranjeros>
+        <discapacitados>9.1</discapacitados>
+        
+        <listaCantones>
+            <nombre>Cartago</nombre>
+            <poblacion>147898</poblacion>
+            <densidad>514</densidad>
+            <superficie>287.8</superficie>
+            <alfabetismo>98.4</alfabetismo>
+            <fuersaDeTrabajo>46.8</fuersaDeTrabajo>
+            <extranjeros>3.9</extranjeros>
+            <discapacitados>8.6</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Paraíso</nombre>
+            <poblacion>57743</poblacion>
+            <densidad>140</densidad>
+            <superficie>411.9</superficie>
+            <alfabetismo>98.0</alfabetismo>
+            <fuersaDeTrabajo>48.5</fuersaDeTrabajo>
+            <extranjeros>2.4</extranjeros>
+            <discapacitados>8.0</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>La Unión</nombre>
+            <poblacion>99399</poblacion>
+            <densidad>2217</densidad>
+            <superficie>44.8</superficie>
+            <alfabetismo>98.6</alfabetismo>
+            <fuersaDeTrabajo>40.7</fuersaDeTrabajo>
+            <extranjeros>9.7</extranjeros>
+            <discapacitados>9.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Jiménez</nombre>
+            <poblacion>14669</poblacion>
+            <densidad>51</densidad>
+            <superficie>286.4</superficie>
+            <alfabetismo>96.6</alfabetismo>
+            <fuersaDeTrabajo>52.9</fuersaDeTrabajo>
+            <extranjeros>2.4</extranjeros>
+            <discapacitados>10.9</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Turrialba</nombre>
+            <poblacion>69616</poblacion>
+            <densidad>42</densidad>
+            <superficie>1642.7</superficie>
+            <alfabetismo>96.1</alfabetismo>
+            <fuersaDeTrabajo>52.5</fuersaDeTrabajo>
+            <extranjeros>2.2</extranjeros>
+            <discapacitados>11.7</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Alvarado</nombre>
+            <poblacion>14312</poblacion>
+            <densidad>177</densidad>
+            <superficie>81.1</superficie>
+            <alfabetismo>97.2</alfabetismo>
+            <fuersaDeTrabajo>47.0</fuersaDeTrabajo>
+            <extranjeros>1.4</extranjeros>
+            <discapacitados>8.9</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Oreamuno</nombre>
+            <poblacion>45473</poblacion>
+            <densidad>226</densidad>
+            <superficie>201.3</superficie>
+            <alfabetismo>97.7</alfabetismo>
+            <fuersaDeTrabajo>46.1</fuersaDeTrabajo>
+            <extranjeros>1.4</extranjeros>
+            <discapacitados>8.3</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>El Guarco</nombre>
+            <poblacion>41793</poblacion>
+            <densidad>249</densidad>
+            <superficie>167.7</superficie>
+            <alfabetismo>98.4</alfabetismo>
+            <fuersaDeTrabajo>44.9</fuersaDeTrabajo>
+            <extranjeros>2.8</extranjeros>
+            <discapacitados>8.1</discapacitados>
+        </listaCantones>
+    </listaProvincias>
+    
+    <listaProvincias>
+        <nombre>Heredia</nombre>
+        <poblacion>433677</poblacion>
+        <densidad>163</densidad>
+        <superficie>2657</superficie>
+        <alfabetismo>98.4</alfabetismo>
+        <fuersaDeTrabajo>42.7</fuersaDeTrabajo>
+        <extranjeros>10.0</extranjeros>
+        <discapacitados>10.0</discapacitados>
+        
+        <listaCantones>
+            <nombre>Heredia</nombre>
+            <poblacion>123616</poblacion>
+            <densidad>437</densidad>
+            <superficie>282.6</superficie>
+            <alfabetismo>99.1</alfabetismo>
+            <fuersaDeTrabajo>41.1</fuersaDeTrabajo>
+            <extranjeros>11.3</extranjeros>
+            <discapacitados>10.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Barva</nombre>
+            <poblacion>40660</poblacion>
+            <densidad>756</densidad>
+            <superficie>53.8</superficie>
+            <alfabetismo>98.9</alfabetismo>
+            <fuersaDeTrabajo>42.2</fuersaDeTrabajo>
+            <extranjeros>5.4</extranjeros>
+            <discapacitados>9.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Santo Domingo</nombre>
+            <poblacion>40072</poblacion>
+            <densidad>1613</densidad>
+            <superficie>24.8</superficie>
+            <alfabetismo>99.1</alfabetismo>
+            <fuersaDeTrabajo>42.9</fuersaDeTrabajo>
+            <extranjeros>7.7</extranjeros>
+            <discapacitados>9.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Santa Bárbara</nombre>
+            <poblacion>36243</poblacion>
+            <densidad>681</densidad>
+            <superficie>53.2</superficie>
+            <alfabetismo>98.5</alfabetismo>
+            <fuersaDeTrabajo>43.6</fuersaDeTrabajo>
+            <extranjeros>6.8</extranjeros>
+            <discapacitados>9.7</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>San Rafael</nombre>
+            <poblacion>45965</poblacion>
+            <densidad>950</densidad>
+            <superficie>48.4</superficie>
+            <alfabetismo>99.5</alfabetismo>
+            <fuersaDeTrabajo>42.1</fuersaDeTrabajo>
+            <extranjeros>8.1</extranjeros>
+            <discapacitados>9.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>San Isidro</nombre>
+            <poblacion>20633</poblacion>
+            <densidad>765</densidad>
+            <superficie>27.0</superficie>
+            <alfabetismo>98.7</alfabetismo>
+            <fuersaDeTrabajo>41.3</fuersaDeTrabajo>
+            <extranjeros>7.7</extranjeros>
+            <discapacitados>8.6</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Belén</nombre>
+            <poblacion>21633</poblacion>
+            <densidad>1780</densidad>
+            <superficie>12.1</superficie>
+            <alfabetismo>99.0</alfabetismo>
+            <fuersaDeTrabajo>41.5</fuersaDeTrabajo>
+            <extranjeros>9.3</extranjeros>
+            <discapacitados>4.0</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Flores</nombre>
+            <poblacion>20037</poblacion>
+            <densidad>2879</densidad>
+            <superficie>7.0</superficie>
+            <alfabetismo>99.1</alfabetismo>
+            <fuersaDeTrabajo>41.1</fuersaDeTrabajo>
+            <extranjeros>7.8</extranjeros>
+            <discapacitados>9.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>San Pablo</nombre>
+            <poblacion>27671</poblacion>
+            <densidad>3675</densidad>
+            <superficie>7.5</superficie>
+            <alfabetismo>99.1</alfabetismo>
+            <fuersaDeTrabajo>41.5</fuersaDeTrabajo>
+            <extranjeros>7.6</extranjeros>
+            <discapacitados>11.0</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Sarapiquí</nombre>
+            <poblacion>57147</poblacion>
+            <densidad>27</densidad>
+            <superficie>2140.5</superficie>
+            <alfabetismo>94.4</alfabetismo>
+            <fuersaDeTrabajo>49.5</fuersaDeTrabajo>
+            <extranjeros>17.8</extranjeros>
             <discapacitados>10.5</discapacitados>
         </listaCantones>
     </listaProvincias>
-    <listaProvincias>
-        <nombre>Alajuela</nombre>
-        <listaCantones>
-            <nombre>San Jose</nombre>
-            <poblacion>288054</poblacion>
-            <densidad>44.6</densidad>
-            <alfabetismo>98.8</alfabetismo>
-            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
-            <extranjeros>16,3</extranjeros>
-            <discapacitados>12,3</discapacitados>
-        </listaCantones>
-    </listaProvincias>
-    <listaProvincias>
-        <nombre>Cartago</nombre>
-        <listaCantones>
-            <nombre>San Jose</nombre>
-            <poblacion>288054</poblacion>
-            <densidad>44.6</densidad>
-            <alfabetismo>98.8</alfabetismo>
-            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
-            <extranjeros>16,3</extranjeros>
-            <discapacitados>12,3</discapacitados>
-        </listaCantones>
-    </listaProvincias>
-    <listaProvincias>
-        <nombre>Heredia</nombre>
-        <listaCantones>
-            <nombre>San Jose</nombre>
-            <poblacion>288054</poblacion>
-            <densidad>44.6</densidad>
-            <alfabetismo>98.8</alfabetismo>
-            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
-            <extranjeros>16,3</extranjeros>
-            <discapacitados>12,3</discapacitados>
-        </listaCantones>
-    </listaProvincias>
+    
     <listaProvincias>
         <nombre>Guanacaste</nombre>
+        <poblacion> 326953</poblacion>
+        <densidad>32</densidad>
+        <superficie>10141</superficie>
+        <alfabetismo>97.0</alfabetismo>
+        <fuersaDeTrabajo>52.6</fuersaDeTrabajo>
+        <extranjeros>8.2</extranjeros>
+        <discapacitados>10.9</discapacitados>
+        
         <listaCantones>
-            <nombre>San Jose</nombre>
-            <poblacion>288054</poblacion>
-            <densidad>44.6</densidad>
+            <nombre>Liberia</nombre>
+            <poblacion>62987</poblacion>
+            <densidad>44</densidad>
+            <superficie>1436.5</superficie>
+            <alfabetismo>97.7</alfabetismo>
+            <fuersaDeTrabajo>47.9</fuersaDeTrabajo>
+            <extranjeros>10.2</extranjeros>
+            <discapacitados>7.9</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Nicoya</nombre>
+            <poblacion>50825</poblacion>
+            <densidad>38</densidad>
+            <superficie>1333.7</superficie>
+            <alfabetismo>97.3</alfabetismo>
+            <fuersaDeTrabajo>56.3</fuersaDeTrabajo>
+            <extranjeros>3.3</extranjeros>
+            <discapacitados>13.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Santa Cruz</nombre>
+            <poblacion>55104</poblacion>
+            <densidad>42</densidad>
+            <superficie>1312.3</superficie>
+            <alfabetismo>98.1</alfabetismo>
+            <fuersaDeTrabajo>52.5</fuersaDeTrabajo>
+            <extranjeros>8.6</extranjeros>
+            <discapacitados>9.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Bagaces</nombre>
+            <poblacion>19536</poblacion>
+            <densidad>15</densidad>
+            <superficie>1273.5</superficie>
+            <alfabetismo>96.2</alfabetismo>
+            <fuersaDeTrabajo>54.1</fuersaDeTrabajo>
+            <extranjeros>8.9</extranjeros>
+            <discapacitados>9.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Carrillo</nombre>
+            <poblacion>37122</poblacion>
+            <densidad>64</densidad>
+            <superficie>577.5</superficie>
+            <alfabetismo>97.8</alfabetismo>
+            <fuersaDeTrabajo>53.5</fuersaDeTrabajo>
+            <extranjeros>12.1</extranjeros>
+            <discapacitados>10.2</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Cañas</nombre>
+            <poblacion>26201</poblacion>
+            <densidad>38</densidad>
+            <superficie>682.2</superficie>
+            <alfabetismo>96.4</alfabetismo>
+            <fuersaDeTrabajo>50.2</fuersaDeTrabajo>
+            <extranjeros>8.1</extranjeros>
+            <discapacitados>9.7</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Abangares</nombre>
+            <poblacion>18039</poblacion>
+            <densidad>27</densidad>
+            <superficie>675.8</superficie>
+            <alfabetismo>95.5</alfabetismo>
+            <fuersaDeTrabajo>52.9</fuersaDeTrabajo>
+            <extranjeros>3.7</extranjeros>
+            <discapacitados>12.0</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Tilarán</nombre>
+            <poblacion>19640</poblacion>
+            <densidad>31</densidad>
+            <superficie>638.4</superficie>
+            <alfabetismo>96.4</alfabetismo>
+            <fuersaDeTrabajo>51.4</fuersaDeTrabajo>
+            <extranjeros>5.7</extranjeros>
+            <discapacitados>11.7</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Nandayure</nombre>
+            <poblacion>11121</poblacion>
+            <densidad>20</densidad>
+            <superficie>565.5</superficie>
+            <alfabetismo>96.2</alfabetismo>
+            <fuersaDeTrabajo>57.8</fuersaDeTrabajo>
+            <extranjeros>3.2</extranjeros>
+            <discapacitados>13.9</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>La Cruz</nombre>
+            <poblacion>19181</poblacion>
+            <densidad>14</densidad>
+            <superficie>1383.9</superficie>
             <alfabetismo>98.8</alfabetismo>
             <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
-            <extranjeros>16,3</extranjeros>
-            <discapacitados>12,3</discapacitados>
+            <extranjeros>18.2</extranjeros>
+            <discapacitados>9.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Hojancha</nombre>
+            <poblacion>7197</poblacion>
+            <densidad>28</densidad>
+            <superficie>261.4</superficie>
+            <alfabetismo>96.5</alfabetismo>
+            <fuersaDeTrabajo>56.2</fuersaDeTrabajo>
+            <extranjeros>2.6</extranjeros>
+            <discapacitados>12.6</discapacitados>
         </listaCantones>
     </listaProvincias>
+    
     <listaProvincias>
         <nombre>Puntarenas</nombre>
+        <poblacion>410929</poblacion>
+        <densidad>36</densidad>
+        <superficie>11266</superficie>
+        <alfabetismo>96.2</alfabetismo>
+        <fuersaDeTrabajo>51.1</fuersaDeTrabajo>
+        <extranjeros>5.9</extranjeros>
+        <discapacitados>11.3</discapacitados>
+        
         <listaCantones>
-            <nombre>San Jose</nombre>
-            <poblacion>288054</poblacion>
-            <densidad>44.6</densidad>
-            <alfabetismo>98.8</alfabetismo>
-            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
-            <extranjeros>16,3</extranjeros>
-            <discapacitados>12,3</discapacitados>
+            <nombre>Puntarenas</nombre>
+            <poblacion>115019</poblacion>
+            <densidad>62</densidad>
+            <superficie>1842.3</superficie>
+            <alfabetismo>97.1</alfabetismo>
+            <fuersaDeTrabajo>51.8</fuersaDeTrabajo>
+            <extranjeros>5.1</extranjeros>
+            <discapacitados>6.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Esparza</nombre>
+            <poblacion>28644</poblacion>
+            <densidad>132</densidad>
+            <superficie>216.8</superficie>
+            <alfabetismo>97.6</alfabetismo>
+            <fuersaDeTrabajo>50.5</fuersaDeTrabajo>
+            <extranjeros>4.3</extranjeros>
+            <discapacitados>12.0</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Buenos Aires</nombre>
+            <poblacion>45244</poblacion>
+            <densidad>19</densidad>
+            <superficie>2384.2</superficie>
+            <alfabetismo>95.3</alfabetismo>
+            <fuersaDeTrabajo>54.8</fuersaDeTrabajo>
+            <extranjeros>2.2</extranjeros>
+            <discapacitados>10.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Montes de Oro</nombre>
+            <poblacion>12950</poblacion>
+            <densidad>53</densidad>
+            <superficie>244.8</superficie>
+            <alfabetismo>96.4</alfabetismo>
+            <fuersaDeTrabajo>52.3</fuersaDeTrabajo>
+            <extranjeros>4.3</extranjeros>
+            <discapacitados>10.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Osa</nombre>
+            <poblacion>29433</poblacion>
+            <densidad>15</densidad>
+            <superficie>1930.2</superficie>
+            <alfabetismo>95.3</alfabetismo>
+            <fuersaDeTrabajo>51.5</fuersaDeTrabajo>
+            <extranjeros>4.1</extranjeros>
+            <discapacitados>9.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Aguirre</nombre>
+            <poblacion>26861</poblacion>
+            <densidad>49</densidad>
+            <superficie>543.8</superficie>
+            <alfabetismo>96.5</alfabetismo>
+            <fuersaDeTrabajo>45.0</fuersaDeTrabajo>
+            <extranjeros>9.7</extranjeros>
+            <discapacitados>9.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Golfito</nombre>
+            <poblacion>39150</poblacion>
+            <densidad>22</densidad>
+            <superficie>1754.0</superficie>
+            <alfabetismo>96.0</alfabetismo>
+            <fuersaDeTrabajo>51.6</fuersaDeTrabajo>
+            <extranjeros>3.7</extranjeros>
+            <discapacitados>12.9</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Coto Brus</nombre>
+            <poblacion>38453</poblacion>
+            <densidad>41</densidad>
+            <superficie>933.9</superficie>
+            <alfabetismo>94.7</alfabetismo>
+            <fuersaDeTrabajo>55.3</fuersaDeTrabajo>
+            <extranjeros>4.9</extranjeros>
+            <discapacitados>12.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Parrita</nombre>
+            <poblacion>16115</poblacion>
+            <densidad>34</densidad>
+            <superficie>478.8</superficie>
+            <alfabetismo>94.6</alfabetismo>
+            <fuersaDeTrabajo>49.6</fuersaDeTrabajo>
+            <extranjeros>7.6</extranjeros>
+            <discapacitados>9.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Corredores</nombre>
+            <poblacion>41831</poblacion>
+            <densidad>67</densidad>
+            <superficie>620.6</superficie>
+            <alfabetismo>96.0</alfabetismo>
+            <fuersaDeTrabajo>50.0</fuersaDeTrabajo>
+            <extranjeros>5.9</extranjeros>
+            <discapacitados>12.1</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Garabito</nombre>
+            <poblacion>17229</poblacion>
+            <densidad>54</densidad>
+            <superficie>316.3</superficie>
+            <alfabetismo>96.7</alfabetismo>
+            <fuersaDeTrabajo>39.8</fuersaDeTrabajo>
+            <extranjeros>24.1</extranjeros>
+            <discapacitados>7.9</discapacitados>
         </listaCantones>
     </listaProvincias>
+    
     <listaProvincias>
         <nombre>Limon</nombre>
         <listaCantones>
             <nombre>San Jose</nombre>
             <poblacion>288054</poblacion>
             <densidad>44.6</densidad>
+            <superficie>44.6</superficie>
             <alfabetismo>98.8</alfabetismo>
             <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
             <extranjeros>16,3</extranjeros>
             <discapacitados>12,3</discapacitados>
         </listaCantones>
     </listaProvincias>
+
 </pais>
 
