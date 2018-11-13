@@ -892,16 +892,79 @@
     </listaProvincias>
     
     <listaProvincias>
-        <nombre>Limon</nombre>
+        <nombre>Limón</nombre>
+        <poblacion>386862</poblacion>
+        <densidad>42</densidad>
+        <superficie>9189</superficie>
+        <alfabetismo>96.3</alfabetismo>
+        <fuersaDeTrabajo>49.6</fuersaDeTrabajo>
+        <extranjeros>8.7</extranjeros>
+        <discapacitados>11.2</discapacitados>
+        
         <listaCantones>
-            <nombre>San Jose</nombre>
-            <poblacion>288054</poblacion>
-            <densidad>44.6</densidad>
-            <superficie>44.6</superficie>
-            <alfabetismo>98.8</alfabetismo>
-            <fuersaDeTrabajo>43,3</fuersaDeTrabajo>
-            <extranjeros>16,3</extranjeros>
-            <discapacitados>12,3</discapacitados>
+            <nombre>Limón</nombre>
+            <poblacion>94415</poblacion>
+            <densidad>53</densidad>
+            <superficie>1765.8</superficie>
+            <alfabetismo>97.0</alfabetismo>
+            <fuersaDeTrabajo>51.1</fuersaDeTrabajo>
+            <extranjeros>6.7</extranjeros>
+            <discapacitados>11.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Pococí</nombre>
+            <poblacion>125962</poblacion>
+            <densidad>52</densidad>
+            <superficie>2403.5</superficie>
+            <alfabetismo>96.5</alfabetismo>
+            <fuersaDeTrabajo>48.8</fuersaDeTrabajo>
+            <extranjeros>7.5</extranjeros>
+            <discapacitados>11.4</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Siquirres</nombre>
+            <poblacion>56786</poblacion>
+            <densidad>66</densidad>
+            <superficie>860.2</superficie>
+            <alfabetismo>96.5</alfabetismo>
+            <fuersaDeTrabajo>49.4</fuersaDeTrabajo>
+            <extranjeros>6.9</extranjeros>
+            <discapacitados>10.8</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Talamanca</nombre>
+            <poblacion>30712</poblacion>
+            <densidad>11</densidad>
+            <superficie>2809.9</superficie>
+            <alfabetismo>93.1</alfabetismo>
+            <fuersaDeTrabajo>49.6</fuersaDeTrabajo>
+            <extranjeros>16.3</extranjeros>
+            <discapacitados>9.6</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Matina</nombre>
+            <poblacion>37721</poblacion>
+            <densidad>49</densidad>
+            <superficie>772.6</superficie>
+            <alfabetismo>96.0</alfabetismo>
+            <fuersaDeTrabajo>48.1</fuersaDeTrabajo>
+            <extranjeros>14.5</extranjeros>
+            <discapacitados>10.5</discapacitados>
+        </listaCantones>
+        
+        <listaCantones>
+            <nombre>Guácimo</nombre>
+            <poblacion>41266</poblacion>
+            <densidad>72</densidad>
+            <superficie>576.5</superficie>
+            <alfabetismo>96.5</alfabetismo>
+            <fuersaDeTrabajo>49.6</fuersaDeTrabajo>
+            <extranjeros>8.5</extranjeros>
+            <discapacitados>11.6</discapacitados>
         </listaCantones>
     </listaProvincias>
 

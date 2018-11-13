@@ -23,6 +23,7 @@ public class FrmVentanaPrincipal extends javax.swing.JFrame {
      */
     public FrmVentanaPrincipal() {
         initComponents();
+        this.setTitle("Almanaque de Costa Rica");
         CargarVentana();
     }
 

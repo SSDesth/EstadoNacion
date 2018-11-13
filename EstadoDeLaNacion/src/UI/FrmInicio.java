@@ -6,6 +6,9 @@
 package UI;
 
 import Logica.main;
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -19,6 +22,7 @@ public class FrmInicio extends javax.swing.JFrame {
     public FrmInicio() {
         initComponents();
         this.setTitle("Almanaque de Costa Rica");
+        CargarVentana();
     }
 
     /**
@@ -33,16 +37,19 @@ public class FrmInicio extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         btnIngresar = new javax.swing.JButton();
+        jlblFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(102, 102, 102));
         jPanel1.setForeground(new java.awt.Color(102, 102, 102));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Almanaque de Costa Rica");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 55));
 
         btnIngresar.setText("Ingresar");
         btnIngresar.addActionListener(new java.awt.event.ActionListener() {
@@ -50,25 +57,8 @@ public class FrmInicio extends javax.swing.JFrame {
                 btnIngresarActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnIngresar)
-                .addContainerGap())
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 211, Short.MAX_VALUE)
-                .addComponent(btnIngresar)
-                .addContainerGap())
-        );
+        jPanel1.add(btnIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(317, 266, -1, -1));
+        jPanel1.add(jlblFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 300));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -123,10 +113,18 @@ public class FrmInicio extends javax.swing.JFrame {
             }
         });
     }
+    
+    public void CargarVentana(){
+         ImageIcon imagen = new ImageIcon("src/Archivos/IMG/mapa.gif");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(jlblFondo.getWidth(),
+                jlblFondo.getHeight(), Image.SCALE_DEFAULT));
+        jlblFondo.setIcon(icono);
+    } 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnIngresar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel jlblFondo;
     // End of variables declaration//GEN-END:variables
 }
